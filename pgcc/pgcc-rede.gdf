@@ -1,0 +1,57 @@
+nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, color VARCHAR
+0,5538050121450638,Alencar Machado,Professor,,,0.884483,12,2,0,1,2,0,7,'0,102,0'
+1,1143985671114403,Alice de Jesus Kozakevicius,Professor,,,0.77027,7,3,0,0,2,0,2,'0,102,0'
+2,5075974938483862,Ana Trindade Winck,Professor,,,0.15,3,0,0,0,2,1,0,'0,102,0'
+3,8251676116103188,Andrea Schwertner Charao,Professor,,,1.31342,19,2,1,0,7,9,0,'0,102,0'
+4,1940130702621909,Andre Luiz Aita,Professor,,,0.15,2,0,1,0,1,0,0,'0,102,0'
+5,9873333807426188,Andrei Piccinini Legg,Professor,,,1.45831,4,1,0,0,3,0,0,'0,102,0'
+6,4640320476003795,Benhur de Oliveira Stein,Professor,,,0.15,3,0,1,1,1,0,0,'0,102,0'
+7,0538173746410766,Carlos Raniery Paula dos Santos,Professor,,,0.15,3,1,0,0,0,0,2,'0,102,0'
+8,6115049894755620,Cesar Augusto Prior,Professor,,,0.77027,4,0,0,0,3,0,1,'0,102,0'
+9,1751666562438251,Cesar Ramos Rodrigues,Professor,,,1.45946,9,1,0,0,7,0,1,'0,102,0'
+10,4519764091092504,Cesar Tadeu Pozzer,Professor,,,0.15,4,1,0,0,0,1,2,'0,102,0'
+11,7506460984370717,Daniel Welfer,Professor,,,1.0,8,1,0,0,7,0,0,'0,102,0'
+12,7758924784164781,Deise de Brum Saccol,Professor,,,0.15,2,0,0,0,1,0,1,'0,102,0'
+13,8687196768910831,Eduardo Kessler Piveta,Professor,,,0.15,5,0,0,0,2,0,3,'0,102,0'
+14,4818062789310854,Everton Alceu Carara,Professor,,,0.15,0,0,0,0,0,0,0,'0,102,0'
+15,9904863693302949,Fabio Mariano Bayer,Professor,,,0.938362,24,13,0,0,2,0,9,'0,102,0'
+16,5941686828835081,Felipe Martins Muller,Professor,,,0.15,10,4,2,1,3,0,0,'0,102,0'
+17,0865997296771785,Giovani Rubert Librelotto,Professor,,,0.15,2,0,1,0,0,1,0,'0,102,0'
+18,1670816922219129,Iara Augustin,Professor,,,0.884483,3,1,0,1,1,0,0,'0,102,0'
+19,3158303689784382,Joao Baptista dos Santos Martins,Professor,,,1.0,3,1,0,1,1,0,0,'0,102,0'
+20,8369217264362638,Joao Carlos Damasceno Lima,Professor,,,1.09777,6,0,0,1,5,0,0,'0,102,0'
+21,6266546896929217,Joao Vicente Ferreira Lima,Professor,,,0.819844,15,2,0,0,2,3,8,'0,102,0'
+22,4384914116033913,Juliana Kaizer Vizzotto,Professor,,,0.15,5,0,0,0,5,0,0,'0,102,0'
+23,2248193157231211,Leonardo Londero de Oliveira,Professor,,,1.0,1,1,0,0,0,0,0,'0,102,0'
+24,8979575031016933,Lisandra Manzoni Fontoura,Professor,,,1.0,7,0,2,0,5,0,0,'0,102,0'
+25,8066370508832550,Luis Alvaro de Lima Silva,Professor,,,1.0,5,1,0,0,4,0,0,'0,102,0'
+26,8972369058300871,Marcelo Serrano Zanetti,Professor,,,0.15,5,0,2,0,1,0,2,'0,102,0'
+27,1611789402968312,Marcia Pasin,Professor,,,0.537846,8,1,0,1,6,0,0,'0,102,0'
+28,1765721612533942,Marcos Cordeiro d'Ornellas,Professor,,,1.0,25,2,1,1,21,0,0,'0,102,0'
+29,5220540043911446,Mateus Beck Rutzig,Professor,,,0.15,3,0,0,1,2,0,0,'0,102,0'
+30,3867718775277531,Osmar Marchi dos Santos,Professor,,,0.620163,2,0,0,0,2,0,0,'0,102,0'
+31,6069105173950277,Patricia Pitthan de Araujo Barcelos,Professor,,,0.15,5,0,0,0,2,0,3,'0,102,0'
+32,7947423722511295,Raul Ceretta Nunes,Professor,,,0.15,8,0,3,0,5,0,0,'0,102,0'
+33,2684900317624442,Renato Machado,Professor,,,1.82516,7,3,0,0,4,0,0,'0,102,0'
+34,6560346309368052,Roseclea Duarte Medina,Professor,,,1.0,19,5,0,1,9,0,4,'0,102,0'
+35,7514884760338859,Simone Regina Ceolin,Professor,,,0.620163,3,0,0,0,1,2,0,'0,102,0'
+36,8988734339185408,Giliane Bernardi,Colaborador,,,1.0,6,3,0,1,2,0,0,'0,0,153'
+edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
+0,18,3.0
+0,20,2.0
+1,9,1.0
+3,20,2.0
+3,21,3.0
+5,15,1.0
+5,30,1.0
+5,33,2.0
+5,35,1.0
+8,9,1.0
+11,28,4.0
+15,33,2.0
+18,20,2.0
+19,23,1.0
+24,25,2.0
+27,33,1.0
+30,35,1.0
+34,36,3.0

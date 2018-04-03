@@ -1,0 +1,22 @@
+{
+    "Professores": [
+        {
+            "id": "5538050121450638",
+            "nome_completo": "Alencar Machado"
+        },
+        {
+            "id": "1143985671114403",
+            "nome_completo": "Alice de Jesus Kozakevicius"
+        }
+    ],
+"Alunos": [
+        {
+            "id": "5538050121450638",
+            "nome_completo": "Aluno 1"
+        },
+        {
+            "id": "1143985671114403",
+            "nome_completo": "Aluno 2"
+        }
+    ]
+}
